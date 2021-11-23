@@ -60,27 +60,27 @@ The primary data set into Python in order to preview the dataset's structure and
 ## Exploratory Data Analysis
 Different Techniques has applied to clean the messy movie metadata. The different data visualization and statstical manipulation done before start modeling and evaluations.
 The The average vote is the user rating about that movie from 0 to 10. 
-![ScreenShot](rating_dist.png)
+![ScreenShot](images/rating_dist.png)
 
 - Some Text analysis about the movie genres.
-![ScreenShot](text_analysis.png)
+![ScreenShot](images/text_analysis.png)
 # Recommendation Development
 - ## Content Based Filtering Recommendation
 - Content Based Filtering Recommendation suggest products that has similar descriptions or overviews.
-![ScreenShot](content_based.png)
+![ScreenShot](images/content_based.png)
 - ## Collaborative Recommendation
 - Collaborative Filtering suggest items based user activities and commonality preference with other users
 - ## Recommendation Evaluation and Testing
 - ### Content Based Filtering: 
 - similarity score between the items or movies
 - ### Model Testing
-![ScreenShot](content_test.png)
+![ScreenShot](images/content_test.png)
 - ### Collaborative Filtering 
 - Recommend based customer interaction with producst and common interest with other users
 - ### Metrics: RMSE and MAE
-![ScreenShot](metrics.png)
+![ScreenShot](images/metrics.png)
 - ### Model Testing
-![ScreenShot](user_based.png)
+![ScreenShot](images/user_based.png)
 
 # Technology Used
 - Python
@@ -93,15 +93,13 @@ I executed how to build both the content and collaborative filtering movie recom
 
 # Executive Summary
 On the internet and cloud world, we have a lot of preferences on the website/Netflix account/ to watch, but it is challenging to select the best one for ourselves before we watch the whole movie. This is a big problem for the customers. The data scie¬ntist team has all customers' past information and wants to create the best recommendation for the customers. The new entertainment industry has just hired me. They want to create an algorithm that recommends different movies for customers and increases their satisfaction with our startup services.
-
 The goal of this project is to create the optimal movie recommendation system based on customer past data. The data were collected from Kaggle and MovieLens. I applied feature engineering to remove some unnecessary data from some text columns followed by EDA. One of the main challenges in developing movie recommendations is finding the appropriate metrics for the model. Still, I will be using the cosine similarity score for the content-based recommendation engine and RMSE and MAE for the user-based collaborative filtering engine. 
 
 After developing the recommendation engine based on the content and collaborative techniques, I have found that every column is very important for some discoveries. Cleaning and feature engineering steps are the key in modeling developments. I discovered that we could process both the text and numerical values for the recommendation engine. 
-
 I assumed that the text features were unique. Still, when I combine the different text features, there may be some word repetition, which could be risky because the TF-IDF considers the opposite when determining the importance of a word for the movie description.  This may affect the similarity score and the result generated in the testing. 
 
 After all the above assumption and metrics implementation, I have created a movie recommendation engine. This engine tested on different movies and users and it generate different movie recommendations. 
 
-## Future Works
+# Future Works
 Prepared a better computing computer to run a larger datasets and apply gridseach on some models.
 Train the algorithm on the bigger datasets and add more features to make a more effective and personalized engine. Then add Deep Learning alorithms to create a more advance model. 
